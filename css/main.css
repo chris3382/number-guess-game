@@ -1,7 +1,7 @@
 .game-container
 {
     background-color: #cecece;
-    width: 400px;
+    max-width:450px;
     margin:30px;
     padding:20px;
     border-radius: 10px;
@@ -12,6 +12,7 @@
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    font-weight:bold;
 
 }
 
@@ -29,16 +30,34 @@
     display:none;
 }
 
+.feedback_msg
+{
+    margin-top:15px;
+}
+
 .feedback_msg > p.error
 {
     background-color: red;
+    padding:5px;
     color: white;
 
 }
 
 .feedback_msg > p.success
 {
-    background-colo: green;
+    background-color: green;
+    padding:5px;
     color: white;
 
 }
+
+#reset-btn
+{
+    display:none;
+    background-color: #1967c791;
+    color:#000;
+    border-radius: 3px;
+    padding:5px 10px 5px 10px;
+    border:none;
+}
+

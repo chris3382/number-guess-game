@@ -9,13 +9,16 @@
 <body>
   <div class="game-container">
     <form>
-      <label for="">Enter the Number</label>
+      <label for="">Enter the Guessed Number</label>
       <input type="text" name="guessNo" id="guessNo">
       <button type="button" id='guess-btn' onclick="submitGuessed()">Submit Guess</button>
     </form>
     <p id="prevNo">Numbers guessed :</p>
     <div class ="feedback_msg">
-      <p></p>
+      <p id="feedback_content"></p>
+    </div>
+    <div>
+      <button id="reset-btn" onclick="resetGame();">Start New Game</button>
     </div>
   </div>
 <script src="js/main.js"></script>
