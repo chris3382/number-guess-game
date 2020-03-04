@@ -1,0 +1,44 @@
+.game-container
+{
+    background-color: #cecece;
+    width: 400px;
+    margin:30px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px #00000047;
+}
+
+.game-container label, p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+.game-container button
+{
+    background-color: #1967c791;
+    color:#000;
+    border-radius: 3px;
+    padding:5px 10px 5px 10px;
+    border:none;
+}
+
+#prevNo
+{
+    display:none;
+}
+
+.feedback_msg > p.error
+{
+    background-color: red;
+    color: white;
+
+}
+
+.feedback_msg > p.success
+{
+    background-colo: green;
+    color: white;
+
+}
